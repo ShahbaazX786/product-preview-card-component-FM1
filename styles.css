@@ -122,3 +122,23 @@ p{
     width: 18px;
     height: 18px;
 }
+
+@media screen and (max-width:992px) {
+    .card {
+        background-color: white;
+        border-radius: 5px;
+        width: 350px;
+    }
+     .flexx {
+        display: flex;
+        flex-direction: column;
+    }
+    .img {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0px;
+        background-image: url(./assets/image-product-mobile.jpg);
+        width: 350px;
+        height: 280px;
+    }
+}
