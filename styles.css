@@ -13,10 +13,10 @@
 }
 
 
-.html, body{
+.body{
     font-size: 14px;
     background-color: var(--Cream);
-    color: black;
+    /* color: black; */
 }
 
 p{
